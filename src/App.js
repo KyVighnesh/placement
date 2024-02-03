@@ -161,7 +161,6 @@ function App() {
                 autoFocus
                 onChange={onHandleChange}
                 name = "password"
-                value = {user.password}
               />
             <span>{passwordError}</span>
 
@@ -175,7 +174,6 @@ function App() {
                 autoFocus
                 onChange={onHandleChange}
                 name = "confirmPassword"
-                value={user.confirmPassword}
 
               />
 
